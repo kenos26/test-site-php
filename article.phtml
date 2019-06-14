@@ -1,0 +1,10 @@
+<ul>
+<?php
+foreach ($posts as $post): ?>
+<i class="fa fa-hand-o-right"></i>&nbsp;
+<article>
+<h1><a href="show_post.php?id=<?= $post['Id'] ?>"><?= $post['Title'] ?></a></h1>
+<?= $post['Contents'] ?> 
+</article>
+<?php endforeach; ?>
+</ul>

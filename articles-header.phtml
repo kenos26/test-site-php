@@ -1,0 +1,6 @@
+<ul>
+<?php
+foreach ($posts as $post): ?>
+<a href="show_post.php?id=<?= $post['Id'] ?>"><?= $post['Title'] ?></a>
+<?php endforeach; ?>
+</ul>

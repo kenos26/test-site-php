@@ -1,0 +1,8 @@
+<ul>
+<?php
+foreach ($posts as $post): ?>
+<div>
+<a href="posts_aut.php?id=<?= $post['Id']?>"><?= $post['FirstName'] ?> <?= $post['LastName']?></a>
+</div>
+<?php endforeach; ?>
+</ul>
